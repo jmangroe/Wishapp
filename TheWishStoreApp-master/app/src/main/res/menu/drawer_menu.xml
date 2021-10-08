@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        />
+
+    <item android:title="Female">
+        <menu>
+            <item android:id="@+id/f_skirts"
+                android:title="Skirts"
+                android:icon="@drawable/ic_skirt_svgrepo_com"
+                />
+
+            <item android:id="@+id/blouse"
+                android:title="Blouses"
+                android:icon="@drawable/blouse"/>
+
+            <item android:id="@+id/f_pantsAndShorts"
+                android:title="Pants and Shorts"
+                android:icon="@drawable/ic_leggins_svgrepo_com"/>
+
+            <item android:id="@+id/f_shoes"
+                android:title="Shoes"
+                android:icon="@drawable/ic_high_heels_shoe_svgrepo_com"/>
+
+            <item android:id="@+id/f_bags"
+                android:title="Bags"
+                android:icon="@drawable/ic_female_handbag_svgrepo_com"/>
+
+            <item android:id="@+id/f_under"
+                android:title="Undergarments"
+                android:icon="@drawable/ic_underwear_svgrepo_com"/>
+
+            <item android:id="@+id/f_perfume"
+                android:title="Perfume"
+                android:icon="@drawable/ic_perfume_svgrepo_com"/>
+
+            <item android:id="@+id/makeup"
+                android:title="Makeup"
+                android:icon="@drawable/ic_lipstick_svgrepo_com"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Male">
+        <menu>
+            <item android:id="@+id/m_pants"
+                android:title="Pant and Shorts"
+                android:icon="@drawable/ic_pants_svgrepo_com"/>
+
+            <item android:id="@+id/shirts"
+                android:title="Shirts"
+                android:icon="@drawable/ic_sweatshirt_svgrepo_com"/>
+
+            <item android:id="@+id/m_shoes"
+                android:title="Shoes"
+                android:icon="@drawable/ic_sneakers_shoes_svgrepo_com"/>
+
+            <item android:id="@+id/m_bags"
+            android:title="Bags"
+            android:icon="@drawable/ic_backpack_svgrepo_com"/>
+
+            <item android:id="@+id/m_under"
+                android:title="Undergarments"
+                android:icon="@drawable/ic_boxer_svgrepo_com"/>
+
+            <item android:id="@+id/m_perfume"
+                android:title="Perfume"
+                android:icon="@drawable/ic_perfume_svgrepo_com1"/>
+        </menu>
+
+    </item>
+
+    <item android:title="Accessories">
+        <menu>
+            <item android:id="@+id/jewelry"
+                android:title="Jewelry"
+                android:icon="@drawable/ic_diamond_ring_jewelry_svgrepo_com"/>
+
+            <item android:id="@+id/hats"
+                android:title="Hats"
+                android:icon="@drawable/ic_cap_svgrepo_com"/>
+        </menu>
+    </item>
+
+</menu>
